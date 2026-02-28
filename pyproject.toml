@@ -1,0 +1,11 @@
+[project]
+name = "civitas-workspace"
+version = "0.1.0"
+description = "Workspace configuration for the Civitas monorepo."
+requires-python = ">=3.11,<3.13"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.uv.workspace]
+members = ["apps/backend"]
+
